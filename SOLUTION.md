@@ -1,7 +1,7 @@
 # IAM Basics Lab - Solution
 
-**Student Name:** [Your Name]  
-**Date Completed:** [Date]
+**Student Name:** Anderson Fernandes  
+**Date Completed:** 21/04/2026
 
 ---
 
@@ -192,52 +192,45 @@ $ aws s3 ls --profile alice
 
 **Your Answer:**
 
-[Explain benefits: easier management, consistency, scalability, etc.]
-
+Because using groups is easier to manage than assigning policies to ech user individualy
 ---
 
 ### 2. What are the risks of giving everyone AdministratorAccess?
 
 **Your Answer:**
 
-[Discuss: security risks, accidental changes, compliance issues, etc.]
-
+Becuase has full control over everything 
 ---
 
 ### 3. How would you organize IAM for 50 developers across 5 projects?
 
 **Your Answer:**
 
-[Propose structure: project-based groups, role-based access, tagging strategy, etc.]
-
+I would organize IAM by creating groups per project, not per user and each developer is added to the group of their project and permissions attached to their group.
 ---
 
 ### 4. What happens if you delete an IAM user? Can you recover their permissions?
 
 **Your Answer:**
 
-[Explain: user deletion is permanent, permissions can be recreated but history lost, etc.]
-
+The permissions you can not the user.
 ---
 
 ## Key Learnings
 
 **What was most challenging about this lab?**
 
-[Your reflection]
-
+The policies 
 ---
 
 **What IAM best practice will you always follow?**
 
-[Your reflection]
-
+The principle of the least privilege 
 ---
 
 **How does IAM help implement the principle of least privilege?**
 
-[Your reflection]
-
+Giving only the permissions only they absolute need
 ---
 
 ## Checklist
@@ -255,5 +248,5 @@ $ aws s3 ls --profile alice
 
 ---
 
-**Completed By:** [Your Name]  
-**Date:** [Date]
+**Completed By:** Anderson   
+**Date:** 21/04/2026
